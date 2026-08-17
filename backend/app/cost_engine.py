@@ -1,7 +1,7 @@
 """Cost engine — all penalty functions and combined edge cost.
 
 Every penalty returns MRU [0, 1]. Formulas match
-``docs/lunapath_referans_belgesi_2.md``.
+``docs/archive/lunapath_referans_belgesi_2.md``.
 """
 
 from __future__ import annotations

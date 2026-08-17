@@ -89,7 +89,8 @@ Sistem üç bileşenden oluşur:
 | `lunapath/` | P1 veri işleme hattı: DEM'den `.npy` ızgaraları ve `metadata.json` üretir |
 | `backend/` | FastAPI servisi: maliyet motoru, A\* planlayıcı, simülasyon ve REST uçları |
 | `frontend/` | React + TypeScript arayüzü: 3D karşılama sahnesi ve 2D görev kontrol ekranı |
-| `docs/` | Teknik referans belgesi, formüller, ön işleme raporu ve tasarım notları |
+| `docs/final/` | Final versiyonun bağlamı: domain araştırması, literatür taraması ve mühendislik karar raporları |
+| `docs/archive/` | Önceki versiyonun dokümanları: mevcut kodun uyguladığı referans belgesi, formüller, ön işleme raporu ve tasarım notları |
 
 Varsayılan çalışma alanı Ay güney kutbunda 500 × 500 hücrelik bir pencere, 80 m/piksel çözünürlükte (yaklaşık 40 × 40 km), Ay güney kutup stereografik projeksiyonundadır.
 
@@ -509,13 +510,23 @@ Soru ve hata bildirimi: [https://github.com/feza-co/TUAASTROHackathon/issues](ht
 
 [TODO: Ekip için genel bir iletişim adresi veya sosyal medya hesabı belirtilmemiş.]
 
-Ek teknik belgeler:
+Ek teknik belgeler — tam dizin ve okuma sırası için [docs/README.md](docs/README.md):
 
-- [docs/lunapath_referans_belgesi_2.md](docs/lunapath_referans_belgesi_2.md) — formüller, sabitler, maliyet modeli
-- [docs/ay_termal_navigasyon_proje_dokumani.md](docs/ay_termal_navigasyon_proje_dokumani.md) — proje dokümanı
-- [docs/lunar_data_thermal_team_docs.md](docs/lunar_data_thermal_team_docs.md) — veri ve termal ekip notları
-- [docs/stitch_design_brief.md](docs/stitch_design_brief.md) — arayüz tasarım notları
-- [docs/lunar_report_markdown/lunar_data_preprocessing_report.md](docs/lunar_report_markdown/lunar_data_preprocessing_report.md) — ön işleme raporu
+**Final versiyonun bağlamı** (`docs/final/`) — ileriye dönük araştırma ve karar belgeleri:
+
+- [domain-research-and-decision-record.md](docs/final/domain-research-and-decision-record.md) — domain araştırması ve karar kaydı
+- [literature-review-and-methodological-assessment.md](docs/final/literature-review-and-methodological-assessment.md) — literatür taraması ve metodolojik değerlendirme
+- [literature-constraint-comparison.md](docs/final/literature-constraint-comparison.md) — kısıtların literatürle karşılaştırması
+- [frontend-and-simulation-decision-report.md](docs/final/frontend-and-simulation-decision-report.md) — frontend ve simülasyon karar raporu
+- [backend-research-library.md](docs/final/backend-research-library.md) — backend araştırma kütüphanesi (11 belge, başvuru amaçlı)
+
+**Önceki versiyonun dokümanları** (`docs/archive/`) — mevcut kodun dayandığı belgeler:
+
+- [lunapath_referans_belgesi_2.md](docs/archive/lunapath_referans_belgesi_2.md) — formüller, sabitler, maliyet modeli
+- [ay_termal_navigasyon_proje_dokumani.md](docs/archive/ay_termal_navigasyon_proje_dokumani.md) — proje dokümanı
+- [lunar_data_thermal_team_docs.md](docs/archive/lunar_data_thermal_team_docs.md) — veri ve termal ekip notları
+- [stitch_design_brief.md](docs/archive/stitch_design_brief.md) — arayüz tasarım notları
+- [lunar_report_markdown/lunar_data_preprocessing_report.md](docs/archive/lunar_report_markdown/lunar_data_preprocessing_report.md) — ön işleme raporu
 
 <!-- Acknowledgments -->
 ## :gem: Acknowledgements

@@ -10,7 +10,7 @@ from . import constants as C
 DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
 SCENARIOS_DIR = os.path.join(DATA_DIR, "scenarios")
 
-# Weights and constraints frozen at v3.2 spec (docs/lunapath_referans_belgesi_2.md §5.2)
+# Weights and constraints frozen at v3.2 spec (docs/archive/lunapath_referans_belgesi_2.md §5.2)
 MISSION_PROFILES: dict[str, dict] = {
     "balanced": {
         "name": "Dengeli Kesif",
